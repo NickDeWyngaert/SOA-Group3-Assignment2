@@ -1,4 +1,4 @@
-# SOA: Group 2 - Assignment 2
+# SOA: Group 3 - Assignment 2
 
 ## Webservices
 * ...()
