@@ -1,7 +1,7 @@
 # SOA: Group 3 - Assignment 2
 
 ## Webservices
-* ...()
+* [Watched movies](/watched_movies/)
 * ...()
 * ...()
 * ...()

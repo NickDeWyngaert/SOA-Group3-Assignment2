@@ -1,0 +1,30 @@
+<section class="row">
+  <article class="column">
+    <%= if @movies != [] do %>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Director</th>
+            <th>Release date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%= for movie <- @movies do %>
+            <tr>
+              <td><%= movie.id %></td>
+              <td><%= movie.title %></td>
+              <td><%= movie.genre %></td>
+              <td><%= movie.director %></td>
+              <td><%= movie.release %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    <% else %>
+      <p>You haven't watched any movie yet</p>
+    <% end %>
+  </article>
+</section>
