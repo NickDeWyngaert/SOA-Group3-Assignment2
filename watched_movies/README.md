@@ -2,7 +2,7 @@
 This is a REST API where you can view your watched movies.
 
 ## CRUD
-Import file Postman: [WatchedMovies.postman_collection.json](WatchedMovies_CRUD.postman_collection.json)
+Import file Postman: [WatchedMovies.postman_collection.json](WatchedMovies.postman_collection.json)
 
 ### Create
 * POST request
