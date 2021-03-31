@@ -12,7 +12,7 @@
 * Free to choose which framework
 * Minimum 2 different frameworks
 * For each team member, one webservice
-* Deadline: 1/04/2021
+* Deadline: 8/04/2021
 
 ## Team members
 * Maxime Sateur
