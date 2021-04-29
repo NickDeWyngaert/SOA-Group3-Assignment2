@@ -12,11 +12,17 @@ defmodule WatchedWeb.MovieView do
 
   def render("plain_movie.json", %{movie: movie}) do
     %{id: movie.id,
-      title: movie.title}
+      title: movie.title,
+      genre: movie.genre,
+      director: movie.director,
+      duration: movie.duration,
+      release: movie.release,
+      about: movie.about}
   end
 
   def render("extended_movie.json", %{movie: movie}) do
-    %{title: movie.title,
+    %{id: movie.id,
+      title: movie.title,
       genre: movie.genre,
       director: movie.director,
       duration: movie.duration,
