@@ -36,3 +36,21 @@
     "release" => "2017-04-12",
     "about" => "Following the defeats of Deckard Shaw and Mose Jakande, Dominic Toretto and Letty Ortiz are on their honeymoon in Havana when Dom's cousin Fernando gets in trouble owing money to local racer Raldo. Sensing Raldo is a loan shark, Dom challenges Raldo to a race, pitting Fernando's reworked car against Raldo's, and wagering his own Third Generation Chevrolet Impala. After narrowly winning the race, Dom allows Raldo to keep his car, saying his respect is enough, and leaves his cousin with his own car."
 })
+
+{:ok, _movie } = Watched.Movies.create_movie(%{
+    "title" => "I, Robot",
+    "genre" => "action",
+    "director" => "Alex Proyas",
+    "duration" => 115,
+    "release" => "2017-04-12",
+    "about" => "In 2035, techno-phobic homicide detective Del Spooner of the Chicago PD heads the investigation of the apparent suicide of leading robotics scientist, Dr. Alfred Lanning. Unconvinced of the motive, Spooner's investigation into Lanning's death reveals a trail of secrets and agendas within the USR (United States Robotics) corporation and suspicions of murder. Little does he know that his investigation would lead to uncovering a larger threat to humanity."
+})
+
+{:ok, _movie } = Watched.Movies.create_movie(%{
+    "title" => "Greenland",
+    "genre" => "disasters",
+    "director" => "Ric Roman Waugh",
+    "duration" => 120,
+    "release" => "2020-08-11",
+    "about" => "A family fights for survival as a planet-killing comet races to Earth. John Garrity (Gerard Butler), his estranged wife Allison (Morena Baccarin), and young son Nathan make a perilous journey to their only hope for sanctuary. Amid terrifying news accounts of cities around the world being leveled by the comet's fragments, the Garritys experience the best and worst in humanity while they battle the increasing panic and lawlessness surrounding them."
+})
