@@ -6,7 +6,7 @@ CORS(app)
 
 class todo_item:
     def __init__(self, name, course, soort):
-        self.name = nae
+        self.name = name
         self.course = course
         self.soort = soort
 
@@ -23,7 +23,6 @@ todo_items = [
 def get_todo_items():
     return jsonify({'todo_items': todo_items})
 
-
 @app.route('/to_do_items', methods=['POST'])
 def add_todo_item():
     todo_item = request.get_json(force=True)
@@ -33,7 +32,7 @@ def add_todo_item():
 @app.route('/to_do_items/<int:index>', methods=['DELETE'])
 def delete_todo_item(index):
     todo_items.pop(index)
-    return 'None', 200
+    return jsonify({'todo_items': todo_items}), 200
 
 @app.route('/to_do_items/<int:index>', methods=['PUT'])
 def update_todo_item(index):
