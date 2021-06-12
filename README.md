@@ -4,7 +4,7 @@
 * [Watched movies](/watched_movies/)
 * [To_do_list_Assignments](to_do_list)
 * [products](crud_products)
-* [f1](crud_f1)
+* [f1](new_crud_f1_forUI)
 
 ### Requirements
 * REST or SOAP
